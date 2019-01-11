@@ -14,7 +14,8 @@
     "prepublish": "yarn build",
     "build": "node build.js",
     "dev": "nodemon ./bin/card.js",
-    "lint": "standard"
+    "lint": "standard",
+    "release": "np --any-branch"
   },
   "keywords": [
     "card",
