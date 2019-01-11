@@ -1,21 +1,20 @@
 {
-  "name": "bitandbang",
+  "name": "robixxu",
   "version": "1.3.0",
   "description": "A personal card for Tierney Cyren (@bitandbang)",
   "main": "/bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "robixxu": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/bnb/bitandbang.git"
+    "url": "https://github.com/robiXxu/robixxu-card.git"
   },
   "scripts": {
-    "prepublish": "npm run build",
+    "prepublish": "yarn build",
     "build": "node build.js",
-    "dev": "npm run build && node ./bin/card.js",
-    "lint": "standard",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon ./bin/card.js",
+    "lint": "standard"
   },
   "keywords": [
     "card",
@@ -25,7 +24,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "Schiriac Robert <schiriac.robert@gmail.com> (http://schiriac.com)",
   "license": "MIT",
   "files": [
     "bin/card.js",
@@ -34,6 +33,7 @@
   "devDependencies": {
     "boxen": "^2.1.0",
     "chalk": "^2.4.1",
+    "nodemon": "^1.18.9",
     "standard": "^12.0.1"
   }
 }
