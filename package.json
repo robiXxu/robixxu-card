@@ -11,12 +11,12 @@
     "url": "https://github.com/robiXxu/robixxu-card.git"
   },
   "scripts": {
-    "prepublish": "yarn build",
+    "prepublish": "npm build",
     "build": "node build.js",
     "dev": "nodemon ./bin/card.js",
     "lint": "standard",
     "release": "np --any-branch --always",
-    "test": "exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
     "card",
