@@ -15,8 +15,7 @@
     "build": "node build.js",
     "dev": "nodemon ./bin/card.js",
     "lint": "standard",
-    "release": "np --any-branch --always",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "release": "np --any-branch --always"
   },
   "keywords": [
     "card",
