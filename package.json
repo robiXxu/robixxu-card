@@ -15,7 +15,7 @@
     "build": "node build.js",
     "dev": "nodemon ./bin/card.js",
     "lint": "standard",
-    "release": "np --any-branch"
+    "release": "np --any-branch --always"
   },
   "keywords": [
     "card",
